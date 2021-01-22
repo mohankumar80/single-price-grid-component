@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body {
+    box-sizing: border-box;
+    background-color: hsl(204, 43%, 93%);
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Karla, sans-serif;
+    color: #fff;
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+}
+
+h3 {
+    color:  hsl(71, 73%, 54%);
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+span {
+    font-size: 2rem;
+}
+
+#btn-signup {
+    display: block;
+    border: 0;
+    border-radius: 0.5rem;
+    width: 95%;
+    height: 3rem;
+    margin: auto;
+    color: #fff;
+    background-color: hsl(71, 73%, 54%);
+    box-shadow: 5px 0 10px 1px gray;
+    cursor: pointer;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    width: 375px;
+    margin: 5rem auto;
+}
+
+.container {
+    padding: 1.2rem;
+}
+
+.card-info p {
+    color: hsl(218, 22%, 67%);
+}
+
+.sub-infoOne {
+    background-color: hsl(179, 62%, 43%);
+}
+
+.sub-infoTwo {
+    background-color: hsl(179, 47%, 52%);
+}
+
+@media screen and ( min-width: 768px ) {
+    .card {
+        width: 700px;
+        margin: 5rem auto;
+    }
+
+    .main-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #btn-signup {
+        margin-top: 3rem;
+    }
+}
